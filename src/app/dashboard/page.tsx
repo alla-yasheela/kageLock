@@ -142,7 +142,7 @@ export default function DashboardPage() {
 
   return (
     <main
-      className="min-h-screen flex flex-col bg-gray-50 dark:bg-black"
+      className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900"
       style={{ backgroundColor: customColors.background }}
     >
       <Header />

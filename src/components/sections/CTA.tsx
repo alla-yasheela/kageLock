@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 export function CTA() {
   return (
-    <section className="py-20 bg-gray-100 dark:bg-gray-900">
+    <section className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container-width">
         <motion.div
-          className="relative rounded-3xl bg-white dark:bg-gray-800 shadow-md"
+          className="relative rounded-3xl bg-white dark:bg-gray-900 shadow-md border border-gray-200 dark:border-gray-700"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}

@@ -36,9 +36,9 @@ export default function LoginPage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
       <Header />
-      <div className="flex-grow pt-24 pb-12 flex items-center justify-center">
+      <div className="flex-grow pt-24 pb-12 flex items-center justify-center bg-white dark:bg-gray-900">
         <div className="container-width">
           <div className="max-w-md mx-auto">
             <motion.div

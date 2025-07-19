@@ -112,7 +112,7 @@ export default function PricingPage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col bg-white dark:bg-black">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
       <Header />
       <div className="flex-grow pt-24 pb-12">
         <div className="container-width">
@@ -198,7 +198,7 @@ export default function PricingPage() {
           </div>
 
           {/* Enterprise */}
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-8 mb-16 border border-gray-200 dark:border-gray-800">
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 mb-16 border border-gray-200 dark:border-gray-700">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
                 <h2 className="text-2xl font-semibold mb-2">Need a custom solution?</h2>
@@ -224,10 +224,10 @@ export default function PricingPage() {
               {faqs.map((faq, index) => (
                 <div
                   key={index}
-                  className="rounded-lg shadow-md bg-white dark:bg-black border border-gray-200 dark:border-gray-800 overflow-hidden"
+                  className="rounded-lg shadow-md bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 overflow-hidden"
                 >
                   <button
-                    className="flex items-center justify-between w-full py-4 px-6 text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors duration-200"
+                    className="flex items-center justify-between w-full py-4 px-6 text-lg font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200"
                     onClick={() => toggleFAQ(index)}
                     aria-expanded={openFAQIndex === index}
                   >

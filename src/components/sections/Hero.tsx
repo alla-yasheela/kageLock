@@ -60,7 +60,7 @@ export function Hero() {
   }, [cardControls, isClient]);
 
   return (
-    <section className="pt-32 pb-16 md:pt-36 md:pb-24 overflow-hidden">
+    <section className="pt-32 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-white dark:bg-gray-900">
       <div className="container-width">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -69,7 +69,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center px-3 py-1 text-sm font-medium bg-blue-50 text-blue-600 rounded-full">
+            <div className="inline-flex items-center px-3 py-1 text-sm font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full">
               🚀 Hackathon MVP - Live Demo Available
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-gray-900 dark:text-white">
@@ -100,7 +100,7 @@ export function Hero() {
             </div>
             <div className="pt-6 flex items-center gap-6 text-sm text-gray-500 dark:text-gray-400">
               <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center">
+                <div className="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
                   <svg className="h-3 w-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
@@ -108,7 +108,7 @@ export function Hero() {
                 <span>AI-powered monitoring</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center">
+                <div className="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
                   <svg className="h-3 w-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>

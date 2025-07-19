@@ -142,9 +142,9 @@ export default function MarketplacePage() {
   ];
 
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
       <Header />
-      <div className="flex-grow pt-24 pb-12">
+      <div className="flex-grow pt-24 pb-12 bg-white dark:bg-gray-900">
         <div className="container-width">
           <div className="mb-12">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">IP Marketplace</h1>
@@ -221,7 +221,7 @@ export default function MarketplacePage() {
 
           {/* Empty State */}
           {filteredAssets.length === 0 && (
-            <div className="text-center py-16 bg-gray-50 dark:bg-gray-900/30 rounded-lg">
+            <div className="text-center py-16 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <Search className="h-12 w-12 mx-auto text-gray-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">No assets found</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
