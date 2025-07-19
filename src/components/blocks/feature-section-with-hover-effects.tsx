@@ -15,48 +15,48 @@ import {
 export function FeaturesSectionWithHoverEffects() {
   const features = [
     {
-      title: "Built for developers",
+      title: "Blockchain Registration",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
+        "Upload IP assets and get timestamped on Solana blockchain with zero-knowledge proofs for privacy.",
       icon: <IconTerminal2 />,
     },
     {
-      title: "Ease of use",
+      title: "AI-Powered Monitoring",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
+        "24/7 AI scans X, GitHub, Behance, and more platforms for unauthorized use of your IP.",
       icon: <IconEaseInOut />,
     },
     {
-      title: "Pricing like no other",
+      title: "Automated Enforcement",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
+        "Instant alerts with evidence. Send DMCA takedowns or escalate to legal partners automatically.",
       icon: <IconCurrencyDollar />,
     },
     {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
+      title: "IP Marketplace",
+      description: "List your IP for licensing deals. Smart contracts handle transactions automatically.",
       icon: <IconCloud />,
     },
     {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
+      title: "Zero-Knowledge Privacy",
+      description: "Your content stays private while proving ownership through cryptographic proofs.",
       icon: <IconRouteAltLeft />,
     },
     {
-      title: "24/7 Customer Support",
+      title: "Real-time Alerts",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "Get notified instantly when potential IP theft is detected with screenshots and URLs.",
       icon: <IconHelp />,
     },
     {
-      title: "Money back guarantee",
+      title: "Legal Integration",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "Direct integration with legal partners for escalated enforcement actions.",
       icon: <IconAdjustmentsBolt />,
     },
     {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      title: "Passive Income",
+      description: "Transform your IP protection into revenue through our licensing marketplace.",
       icon: <IconHeart />,
     },
   ];

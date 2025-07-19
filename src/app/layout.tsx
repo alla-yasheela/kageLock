@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/layout/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "kageLock - Secure, Monitor, and Monetize Your Intellectual Property",
-  description: "kageLock is an all-in-one platform that registers, monitors, enforces, and monetizes your intellectual property with unmatched speed and security.",
+  title: "KageLock - Blockchain + AI IP Protection | Hackathon MVP",
+  description: "Protect your IP with Solana blockchain timestamps and zero-knowledge proofs. AI monitors X, GitHub & more 24/7. Automated takedowns. Built-in marketplace for licensing deals.",
 };
 
 export default function RootLayout({

@@ -50,7 +50,7 @@ export default function SignupPage() {
                   <div className="text-center mb-8">
                     <h1 className="text-2xl font-semibold mb-2">Create your account</h1>
                     <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Join kageLock to protect your intellectual property today
+                      Join KageLock to protect your IP with blockchain + AI technology
                     </p>
                   </div>
 

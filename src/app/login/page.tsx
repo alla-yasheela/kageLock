@@ -51,7 +51,7 @@ export default function LoginPage() {
                 <div className="text-center mb-8">
                   <h1 className="text-2xl font-semibold mb-2">Welcome back</h1>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
-                    Log in to your kageLock account to manage your intellectual property
+                    Log in to your KageLock account to access blockchain IP protection and AI monitoring dashboard
                   </p>
                 </div>
 

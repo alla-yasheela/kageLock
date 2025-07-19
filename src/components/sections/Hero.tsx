@@ -70,13 +70,13 @@ export function Hero() {
             transition={{ duration: 0.5 }}
           >
             <div className="inline-flex items-center px-3 py-1 text-sm font-medium bg-blue-50 text-blue-600 rounded-full">
-              Protect Your Intellectual Property
+              🚀 Hackathon MVP - Live Demo Available
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-gray-900 dark:text-white">
-              Secure, Monitor, and Monetize Your Digital Assets
+              Protect, Monitor & Monetize Your IP with Blockchain + AI
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              kageLock is an all-in-one platform that registers, monitors, enforces, and monetizes your intellectual property with unmatched speed and security.
+              Upload your designs, code, or documents. Get timestamped on Solana blockchain with zero-knowledge proofs. AI monitors X, GitHub & more 24/7. Automated takedowns. Built-in marketplace for licensing deals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button
@@ -84,7 +84,7 @@ export function Hero() {
                 asChild
                 className="rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium px-6"
               >
-                <Link href="/signup">Get Started Now</Link>
+                <Link href="/signup">Try Live Demo</Link>
               </Button>
               <Button
                 variant="outline"
@@ -92,8 +92,8 @@ export function Hero() {
                 asChild
                 className="rounded-lg font-medium group"
               >
-                <Link href="#how-it-works" className="flex items-center">
-                  How It Works
+                <Link href="/dashboard" className="flex items-center">
+                  View Dashboard Demo
                   <ChevronRight className="ml-1 h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
                 </Link>
               </Button>
@@ -113,7 +113,7 @@ export function Hero() {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span>Blockchain secured</span>
+                <span>Solana blockchain + ZKP</span>
               </div>
             </div>
           </motion.div>
@@ -202,8 +202,8 @@ export function Hero() {
                             </svg>
                           </motion.div>
                           <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-gray-100">Your IP is Secure with Us</h3>
-                            <p className="text-xs text-gray-500 dark:text-gray-400">Protected with blockchain technology</p>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-gray-100">Live IP Protection Demo</h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">Solana blockchain + AI monitoring active</p>
                           </div>
                         </div>
                         <div className="space-y-3">

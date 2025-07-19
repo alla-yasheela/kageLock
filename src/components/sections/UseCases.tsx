@@ -11,7 +11,7 @@ export function UseCases() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">Real-World Impact</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            See how kageLock protects intellectual property for different users across various industries.
+            See how KageLock's blockchain + AI solution protects creators, developers, and businesses from IP theft while generating revenue.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export function UseCases() {
                       <div>
                         <h3 className="text-xl font-semibold">The Freelancer</h3>
                         <p className="text-gray-600 dark:text-gray-400 text-sm">
-                          Sarah, a graphic designer, protecting her creative work
+                          Sarah, a graphic designer, using blockchain + AI to protect and monetize her designs
                         </p>
                       </div>
                     </div>
@@ -63,27 +63,27 @@ export function UseCases() {
                       <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
                         <h4 className="font-medium mb-2 text-sm text-gray-500 uppercase">Challenge</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300">
-                          Sarah creates logos and brand identities for clients. She's had her work stolen multiple times, appearing on X and other social media without credit or payment.
+                          Sarah creates logos and brand identities for clients. Her work keeps getting stolen and reposted on X, Pinterest, and design platforms without credit or compensation.
                         </p>
                       </div>
 
                       <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20">
                         <h4 className="font-medium mb-2 text-sm text-blue-500 uppercase">Solution</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
-                          Sarah uploads her latest logo to kageLock. Our AI spots a copy on X within hours.
+                          Sarah uploads her designs to KageLock, getting blockchain timestamps with zero-knowledge proofs. AI detects theft on X within hours.
                         </p>
                         <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                           <li className="flex items-start gap-2">
                             <span className="text-blue-500 flex-none">✓</span>
-                            <span>Immediate notification with evidence</span>
+                            <span>Instant alert with screenshot evidence</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-blue-500 flex-none">✓</span>
-                            <span>Auto-takedown notice sent</span>
+                            <span>Automated DMCA takedown sent</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-blue-500 flex-none">✓</span>
-                            <span>Licensed design for $200</span>
+                            <span>Listed on marketplace, earned $200 licensing fee</span>
                           </li>
                         </ul>
                       </div>
@@ -91,7 +91,7 @@ export function UseCases() {
                       <div className="p-4 rounded-xl bg-green-50 dark:bg-green-900/20">
                         <h4 className="font-medium mb-2 text-sm text-green-500 uppercase">Outcome</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300">
-                          Sarah not only protects her work but also monetizes it, creating a new revenue stream. All within a day, without disrupting her creative workflow.
+                          Sarah now has blockchain-verified ownership, automated protection, and a new revenue stream from licensing. All while focusing on her creative work.
                         </p>
                       </div>
                     </div>
@@ -116,7 +116,7 @@ export function UseCases() {
                       <div>
                         <h3 className="text-xl font-semibold">The Startup</h3>
                         <p className="text-gray-600 dark:text-gray-400 text-sm">
-                          A fintech team protecting their proprietary algorithm
+                          TechFlow, a fintech startup, protecting their payment algorithm with blockchain + AI
                         </p>
                       </div>
                     </div>
@@ -125,27 +125,27 @@ export function UseCases() {
                       <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
                         <h4 className="font-medium mb-2 text-sm text-gray-500 uppercase">Challenge</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300">
-                          A fintech startup has developed a unique payment processing algorithm. They're concerned about competitors copying their code before they can secure patents.
+                          TechFlow developed a revolutionary payment processing algorithm. They need to prove ownership and prevent code theft on GitHub while patent applications are pending.
                         </p>
                       </div>
 
                       <div className="p-4 rounded-xl bg-purple-50 dark:bg-purple-900/20">
                         <h4 className="font-medium mb-2 text-sm text-purple-500 uppercase">Solution</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
-                          The team registers their payment algorithm with kageLock using zero-knowledge proofs.
+                          TechFlow registers their algorithm on KageLock's Solana blockchain with zero-knowledge proofs, keeping code private while proving ownership.
                         </p>
                         <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                           <li className="flex items-start gap-2">
                             <span className="text-purple-500 flex-none">✓</span>
-                            <span>GitHub clone flagged immediately</span>
+                            <span>AI detected GitHub clone within 2 hours</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-purple-500 flex-none">✓</span>
-                            <span>Access to infringing repo blocked</span>
+                            <span>Automated DMCA sent, repo taken down</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-purple-500 flex-none">✓</span>
-                            <span>Legal partner handles infringement</span>
+                            <span>Blockchain proof supports patent application</span>
                           </li>
                         </ul>
                       </div>
@@ -153,7 +153,7 @@ export function UseCases() {
                       <div className="p-4 rounded-xl bg-green-50 dark:bg-green-900/20">
                         <h4 className="font-medium mb-2 text-sm text-green-500 uppercase">Outcome</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300">
-                          The startup maintains their competitive advantage and can focus on scaling rather than legal battles. Their intellectual property remains secure during the vulnerable early stages.
+                          TechFlow has indisputable blockchain proof of creation date, automated protection from code theft, and can focus on building instead of legal battles.
                         </p>
                       </div>
                     </div>
@@ -178,7 +178,7 @@ export function UseCases() {
                       <div>
                         <h3 className="text-xl font-semibold">The Artist</h3>
                         <p className="text-gray-600 dark:text-gray-400 text-sm">
-                          Jamal, an NFT creator, protecting his digital art
+                          Alex, a digital artist, protecting NFT art and earning licensing revenue
                         </p>
                       </div>
                     </div>
@@ -187,27 +187,27 @@ export function UseCases() {
                       <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
                         <h4 className="font-medium mb-2 text-sm text-gray-500 uppercase">Challenge</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300">
-                          Jamal creates digital art for the NFT market. He's found unauthorized copies of his work on multiple marketplaces, diluting his brand and stealing potential sales.
+                          Alex creates digital art for NFTs and commercial use. His artwork keeps getting stolen and minted as unauthorized NFTs on different marketplaces, hurting his brand and sales.
                         </p>
                       </div>
 
                       <div className="p-4 rounded-xl bg-orange-50 dark:bg-orange-900/20">
                         <h4 className="font-medium mb-2 text-sm text-orange-500 uppercase">Solution</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
-                          Jamal registers his digital art collection with kageLock before launching.
+                          Alex registers his art on KageLock before minting NFTs, creating blockchain proof of original creation with zero-knowledge privacy.
                         </p>
                         <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                           <li className="flex items-start gap-2">
                             <span className="text-orange-500 flex-none">✓</span>
-                            <span>Proof of earlier registration</span>
+                            <span>Blockchain timestamp proves original creation</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-orange-500 flex-none">✓</span>
-                            <span>Automated removal of copies</span>
+                            <span>AI detects unauthorized NFT mints, sends takedowns</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <span className="text-orange-500 flex-none">✓</span>
-                            <span>Passive income through licensing</span>
+                            <span>Marketplace generates $500/month in licensing</span>
                           </li>
                         </ul>
                       </div>
@@ -215,7 +215,7 @@ export function UseCases() {
                       <div className="p-4 rounded-xl bg-green-50 dark:bg-green-900/20">
                         <h4 className="font-medium mb-2 text-sm text-green-500 uppercase">Outcome</h4>
                         <p className="text-sm text-gray-700 dark:text-gray-300">
-                          Jamal protects the value of his NFT collection and creates a new revenue stream through licensing. His reputation as an artist remains intact, and his work retains its exclusivity.
+                          Alex has bulletproof ownership proof, automated theft protection, and a growing passive income from legitimate licensing deals through KageLock's marketplace.
                         </p>
                       </div>
                     </div>

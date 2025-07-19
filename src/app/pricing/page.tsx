@@ -19,18 +19,18 @@ export default function PricingPage() {
         monthly: "$0",
         annual: "$0",
       },
-      description: "Basic protection for individuals",
+      description: "Perfect for trying our hackathon MVP",
       features: [
-        { name: "3 Protected Assets", included: true },
-        { name: "Basic AI Monitoring", included: true },
+        { name: "5 IP Assets on Solana Blockchain", included: true },
+        { name: "AI Monitoring (X, GitHub)", included: true },
         { name: "Email Alerts", included: true },
-        { name: "Blockchain Verification", included: true },
+        { name: "Zero-Knowledge Proofs", included: true },
         { name: "Automated Takedowns", included: false },
-        { name: "24/7 Support", included: false },
-        { name: "Dark Web Monitoring", included: false },
-        { name: "API Access", included: false },
+        { name: "Marketplace Listing", included: false },
+        { name: "Legal Partner Integration", included: false },
+        { name: "Advanced Analytics", included: false },
       ],
-      cta: "Get Started",
+      cta: "Try Demo",
       ctaLink: "/signup",
       popular: false,
     },
@@ -40,18 +40,18 @@ export default function PricingPage() {
         monthly: "$29",
         annual: "$19",
       },
-      description: "Complete protection for freelancers",
+      description: "Full protection for creators & freelancers",
       features: [
-        { name: "25 Protected Assets", included: true },
-        { name: "Advanced AI Monitoring", included: true },
+        { name: "50 IP Assets on Blockchain", included: true },
+        { name: "AI Monitoring (All Platforms)", included: true },
         { name: "Real-time Alerts", included: true },
-        { name: "Blockchain Verification", included: true },
+        { name: "Zero-Knowledge Proofs", included: true },
         { name: "Automated Takedowns", included: true },
-        { name: "24/7 Support", included: true },
-        { name: "Dark Web Monitoring", included: false },
-        { name: "API Access", included: false },
+        { name: "Marketplace Listing", included: true },
+        { name: "Legal Partner Integration", included: false },
+        { name: "Advanced Analytics", included: false },
       ],
-      cta: "Start Free Trial",
+      cta: "Start Protecting",
       ctaLink: "/signup?plan=professional",
       popular: true,
     },
@@ -61,18 +61,18 @@ export default function PricingPage() {
         monthly: "$99",
         annual: "$79",
       },
-      description: "Advanced protection for teams",
+      description: "Enterprise protection for teams & startups",
       features: [
-        { name: "Unlimited Protected Assets", included: true },
-        { name: "Premium AI Monitoring", included: true },
+        { name: "Unlimited IP Assets", included: true },
+        { name: "AI Monitoring + Dark Web", included: true },
         { name: "Real-time Alerts", included: true },
-        { name: "Blockchain Verification", included: true },
+        { name: "Zero-Knowledge Proofs", included: true },
         { name: "Automated Takedowns", included: true },
-        { name: "24/7 Priority Support", included: true },
-        { name: "Dark Web Monitoring", included: true },
-        { name: "API Access", included: true },
+        { name: "Marketplace Listing", included: true },
+        { name: "Legal Partner Integration", included: true },
+        { name: "Advanced Analytics", included: true },
       ],
-      cta: "Start Free Trial",
+      cta: "Scale Protection",
       ctaLink: "/signup?plan=business",
       popular: false,
     },
@@ -80,29 +80,29 @@ export default function PricingPage() {
 
   const faqs = [
     {
-      question: "How does the Free plan work?",
+      question: "How does blockchain registration work?",
       answer:
-        "The Free plan allows you to protect up to 3 assets with our basic AI monitoring. You'll receive email alerts for potential IP matches and can register your assets with blockchain verification. It's perfect for individuals just getting started with IP protection.",
+        "Upload your IP asset, and we create a cryptographic hash that gets timestamped on the Solana blockchain using zero-knowledge proofs. This creates indisputable proof of ownership and creation date while keeping your actual content private.",
     },
     {
-      question: "What is blockchain verification?",
+      question: "How does AI monitoring detect IP theft?",
       answer:
-        "Blockchain verification creates an immutable timestamp proof of your intellectual property ownership. We use zero-knowledge proofs (ZKP) to ensure your actual content remains private while still providing cryptographic evidence of ownership.",
+        "Our AI continuously scans platforms like X (Twitter), GitHub, Behance, Pinterest, and NFT marketplaces using advanced similarity detection algorithms. When potential matches are found, you get instant alerts with evidence including screenshots, URLs, and similarity scores.",
     },
     {
-      question: "Can I upgrade my plan later?",
+      question: "What are zero-knowledge proofs?",
       answer:
-        "Yes, you can upgrade your plan at any time. When you upgrade, we'll prorate the remaining days on your current plan and apply it to your new plan.",
+        "Zero-knowledge proofs let you prove you own specific IP without revealing the actual content. This means you can establish ownership on the blockchain while keeping your designs, code, or documents completely private until you choose to share them.",
     },
     {
       question: "How do automated takedowns work?",
       answer:
-        "When our AI detects a potential IP infringement, Professional and Business plans can enable automatic DMCA takedown notices to be sent to the hosting platform. You'll receive notifications of the status and can override any actions.",
+        "When our AI detects potential IP theft, you can send automated DMCA takedown notices directly from your dashboard. For serious violations, we can escalate to our integrated legal partners. You get full visibility into the process with status updates.",
     },
     {
-      question: "Do you offer custom enterprise plans?",
+      question: "How does the IP marketplace work?",
       answer:
-        "Yes, we offer tailored enterprise solutions for larger organizations with specific needs. Contact our sales team for a custom quote and feature set.",
+        "List your protected IP assets on our marketplace for licensing opportunities. Smart contracts automatically handle negotiations, payments, and royalty distributions. This transforms your IP protection into a passive income stream while maintaining full ownership.",
     },
   ];
 
@@ -119,7 +119,7 @@ export default function PricingPage() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">Simple, Transparent Pricing</h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              Choose the plan that fits your intellectual property protection needs
+              Choose the plan that fits your IP protection needs. All plans include blockchain registration, AI monitoring, and marketplace access.
             </p>
             {/* Billing Toggle */}
             <div className="mt-8 inline-flex items-center bg-gray-100 dark:bg-gray-800 p-1 rounded-lg">

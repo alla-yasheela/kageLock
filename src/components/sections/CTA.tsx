@@ -19,21 +19,21 @@ export function CTA() {
           <div className="relative px-6 py-16 md:px-12 md:py-20 text-center">
             <div className="mx-auto max-w-3xl">
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-                Protect Your Ideas Before They're Stolen
+                Ready to Protect Your IP with Blockchain + AI?
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-                Join thousands of creators, startups, and businesses who trust kageLock to secure their intellectual property in seconds.
+                Join the hackathon demo! Upload your IP, get blockchain timestamps, and see AI monitoring in action. Transform IP protection into passive income.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button size="lg" variant="default" className="bg-blue-600 text-white hover:bg-blue-700 rounded-lg px-6 py-3" asChild>
-                  <Link href="/signup">Get Started For Free</Link>
+                  <Link href="/dashboard">Try Live Demo</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg px-6 py-3" asChild>
-                  <Link href="#contact">Contact Sales</Link>
+                  <Link href="/marketplace">View Marketplace</Link>
                 </Button>
               </div>
               <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">
-                No credit card required. 14-day free trial on all plans.
+                🚀 Hackathon MVP - Full demo available. Built on Solana blockchain.
               </p>
             </div>
           </div>

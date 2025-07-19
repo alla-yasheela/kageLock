@@ -8,7 +8,7 @@ const steps = [
   {
     title: "Register",
     description:
-      "Upload your IP—code, designs, docs—to our platform. We hash it and timestamp it on a blockchain using ZKP, creating an indisputable ownership record without revealing the content.",
+      "Upload your IP assets (code, designs, documents) to our platform. We create a cryptographic hash and timestamp it on Solana blockchain using zero-knowledge proofs, establishing indisputable ownership without revealing your content.",
     icon: <Shield className="h-6 w-6" />,
     color: "process-icon-blue",
     bgColor: "bg-blue-50",
@@ -17,7 +17,7 @@ const steps = [
   {
     title: "Monitor",
     description:
-      "Our generative AI scans platforms like GitHub, Behance, and NFT marketplaces 24/7, flagging any matches to your IP.",
+      "Our AI continuously scans X (Twitter), GitHub, Behance, Pinterest, NFT marketplaces, and the broader web 24/7, using advanced similarity detection to flag potential unauthorized use of your IP.",
     icon: <Search className="h-6 w-6" />,
     color: "process-icon-purple",
     bgColor: "bg-purple-50",
@@ -26,7 +26,7 @@ const steps = [
   {
     title: "Enforce",
     description:
-      "Get instant alerts with evidence (screenshots, links). Choose automated takedown notices or escalate to our legal partners.",
+      "Receive instant alerts with concrete evidence including screenshots, URLs, and similarity scores. Send automated DMCA takedown notices or escalate to our integrated legal partners for serious violations.",
     icon: <AlertTriangle className="h-6 w-6" />,
     color: "process-icon-orange",
     bgColor: "bg-orange-50",
@@ -35,7 +35,7 @@ const steps = [
   {
     title: "Monetize",
     description:
-      "List your IP on our marketplace—smart contracts handle licensing deals, putting cash in your pocket.",
+      "List your protected IP on our marketplace for licensing opportunities. Smart contracts automatically handle negotiations, payments, and royalties, creating passive income from your intellectual property.",
     icon: <Wallet className="h-6 w-6" />,
     color: "process-icon-green",
     bgColor: "bg-green-50",
