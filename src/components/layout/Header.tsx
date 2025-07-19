@@ -42,7 +42,7 @@ export function Header() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${scrolled ? 'bg-white dark:bg-gray-900 shadow-sm py-2' : 'bg-transparent py-5'}`}>
       <div className="container-width flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">kageLock</span>
+          <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">KageLock</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -78,7 +78,7 @@ export function Header() {
             <Link href="/login">Log In</Link>
           </Button>
           <Button asChild className="rounded-lg px-5 bg-blue-600 hover:bg-blue-700">
-            <Link href="/signup">Get Started</Link>
+            <Link href="/signup">Try Demo</Link>
           </Button>
         </div>
 
@@ -130,7 +130,7 @@ export function Header() {
                 <Link href="/login" onClick={() => setIsOpen(false)}>Log In</Link>
               </Button>
               <Button asChild className="rounded-lg bg-blue-600 hover:bg-blue-700">
-                <Link href="/signup" onClick={() => setIsOpen(false)}>Get Started</Link>
+                <Link href="/signup" onClick={() => setIsOpen(false)}>Try Demo</Link>
               </Button>
             </div>
           </nav>
