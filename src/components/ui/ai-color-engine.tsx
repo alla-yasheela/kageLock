@@ -45,7 +45,7 @@ export function AIColorEngine({
       }, 100);
 
       // Simulate color extraction based on content type
-      setTimeout(() => {
+      const timeout = setTimeout(() => {
         // For demo, we'll just use some preset color schemes based on the first character
         // In a real implementation, this would analyze the actual content
         const contentType = typeof uploadedContent === 'string' ?
@@ -95,7 +95,10 @@ export function AIColorEngine({
         }
       }, 2000);
 
-      return () => clearInterval(interval);
+      return () => {
+        clearInterval(interval);
+        clearTimeout(timeout);
+      };
     }
   }, [uploadedContent, onThemeGenerated]);
 
