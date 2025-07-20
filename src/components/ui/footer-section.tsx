@@ -23,7 +23,7 @@ function Footerdemo() {
           <div className="relative">
             <h2 className="mb-4 text-3xl font-bold tracking-tight">Stay Connected</h2>
             <p className="mb-4 text-sm text-gray-600 dark:text-gray-400">
-              Get updates on new features and IP protection insights.
+              Get updates on blockchain IP protection and AI monitoring insights.
             </p>
             <form className="relative">
               <Input
