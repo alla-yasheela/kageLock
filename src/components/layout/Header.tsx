@@ -39,7 +39,7 @@ export function Header() {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${scrolled ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-sm py-2' : 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm py-5'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${scrolled ? 'bg-white/95 dark:bg-black/95 backdrop-blur-sm shadow-sm py-2' : 'bg-white/80 dark:bg-black/80 backdrop-blur-sm py-5'}`}>
       <div className="container-width flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">KageLock</span>
@@ -113,7 +113,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden px-4 py-6 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
+        <div className="md:hidden px-4 py-6 bg-white dark:bg-black border-b border-gray-200 dark:border-gray-700">
           <nav className="flex flex-col space-y-4">
             {navItems.map((item) => (
               <Link

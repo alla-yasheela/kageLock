@@ -141,12 +141,9 @@ export default function DashboardPage() {
   }, []);
 
   return (
-    <main
-      className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900"
-      style={{ backgroundColor: customColors.background }}
-    >
+    <main className="min-h-screen flex flex-col bg-gray-50 dark:bg-black">
       <Header />
-      <div className="flex-grow pt-24 pb-12">
+      <div className="flex-grow pt-24 pb-12 bg-gray-50 dark:bg-black">
         <div className="container-width">
           {/* AI Color Engine - Hidden but functional */}
           <div className="hidden">

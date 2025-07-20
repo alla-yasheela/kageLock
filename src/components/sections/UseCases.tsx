@@ -6,7 +6,7 @@ import { User, Building2, Paintbrush } from "lucide-react";
 
 export function UseCases() {
   return (
-    <section id="use-cases" className="py-20">
+    <section id="use-cases" className="py-20 bg-white dark:bg-black">
       <div className="container-width">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">Real-World Impact</h2>

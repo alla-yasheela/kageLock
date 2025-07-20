@@ -12,7 +12,7 @@ import { FeaturesSectionWithHoverEffects } from "@/components/blocks/feature-sec
 
 export function Features() {
   return (
-    <div className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto bg-white dark:bg-gray-900">
+    <div className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto bg-white dark:bg-black">
       <div className="px-8">
         <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black dark:text-white">
           Complete IP Protection Ecosystem

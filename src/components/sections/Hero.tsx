@@ -60,7 +60,7 @@ export function Hero() {
   }, [cardControls, isClient]);
 
   return (
-    <section className="pt-32 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-white dark:bg-gray-900">
+    <section className="pt-32 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-white dark:bg-black">
       <div className="container-width">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div

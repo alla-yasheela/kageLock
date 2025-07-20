@@ -112,9 +112,9 @@ export default function PricingPage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-black">
       <Header />
-      <div className="flex-grow pt-24 pb-12">
+      <div className="flex-grow pt-24 pb-12 bg-white dark:bg-black">
         <div className="container-width">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">Simple, Transparent Pricing</h1>

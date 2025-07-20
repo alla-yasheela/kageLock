@@ -9,7 +9,7 @@ import { Footerdemo } from "@/components/ui/footer-section";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-black">
       <Header />
       <div className="flex-grow">
         <Hero />

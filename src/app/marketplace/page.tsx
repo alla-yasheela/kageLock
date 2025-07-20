@@ -142,9 +142,9 @@ export default function MarketplacePage() {
   ];
 
   return (
-    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-black">
       <Header />
-      <div className="flex-grow pt-24 pb-12 bg-white dark:bg-gray-900">
+      <div className="flex-grow pt-24 pb-12 bg-white dark:bg-black">
         <div className="container-width">
           <div className="mb-12">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">IP Marketplace</h1>

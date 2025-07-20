@@ -34,9 +34,9 @@ export default function SignupPage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
+    <main className="min-h-screen flex flex-col bg-white dark:bg-black">
       <Header />
-      <div className="flex-grow pt-24 pb-12 flex items-center justify-center bg-white dark:bg-gray-900">
+      <div className="flex-grow pt-24 pb-12 flex items-center justify-center bg-white dark:bg-black">
         <div className="container-width">
           <div className="max-w-md mx-auto">
             {formStep === 0 ? (

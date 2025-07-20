@@ -45,7 +45,7 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-20 bg-white dark:bg-gray-900">
+    <section id="how-it-works" className="py-20 bg-white dark:bg-black">
       <div className="container-width">
         <FeatureStepsDemo />
       </div>
