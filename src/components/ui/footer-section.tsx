@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
-import { Textarea } from "@/components/ui/textarea"
 import {
   Tooltip,
   TooltipContent,
@@ -16,11 +15,6 @@ import { Facebook, Instagram, Linkedin, Moon, Send, Sun, Twitter } from "lucide-
 
 function Footerdemo() {
   const [isDarkMode, setIsDarkMode] = React.useState(true)
-  const [isChatOpen, setIsChatOpen] = React.useState(false)
-
-  React.useEffect(() => {
-    // Remove this effect as theme is handled by next-themes
-  }, [])
 
   return (
     <footer className="relative border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
@@ -28,6 +22,8 @@ function Footerdemo() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="relative">
             <h2 className="mb-4 text-3xl font-bold tracking-tight">Stay Connected</h2>
+            <p className="mb-4 text-sm text-gray-600 dark:text-gray-400">
+              Get updates on new features and IP protection insights.
             </p>
             <form className="relative">
               <Input
@@ -49,30 +45,30 @@ function Footerdemo() {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
             <nav className="space-y-2 text-sm">
-              <a href="#" className="block transition-colors hover:text-blue-600">
+              <a href="/" className="block transition-colors hover:text-blue-600">
                 Home
               </a>
-              <a href="#" className="block transition-colors hover:text-blue-600">
-                About Us
+              <a href="/dashboard" className="block transition-colors hover:text-blue-600">
+                Dashboard
               </a>
-              <a href="#" className="block transition-colors hover:text-blue-600">
-                Services
+              <a href="/marketplace" className="block transition-colors hover:text-blue-600">
+                Marketplace
               </a>
-              <a href="#" className="block transition-colors hover:text-blue-600">
-                Products
+              <a href="/pricing" className="block transition-colors hover:text-blue-600">
+                Pricing
               </a>
-              <a href="#" className="block transition-colors hover:text-blue-600">
-                Contact
+              <a href="/login" className="block transition-colors hover:text-blue-600">
+                Login
               </a>
             </nav>
           </div>
           <div>
             <h3 className="mb-4 text-lg font-semibold">Contact Us</h3>
             <address className="space-y-2 text-sm not-italic text-gray-600 dark:text-gray-400">
-              <p>123 Innovation Street</p>
-              <p>Tech City, TC 12345</p>
-              <p>Phone: (123) 456-7890</p>
-              <p>Email: hello@example.com</p>
+              <p>123 Blockchain Avenue</p>
+              <p>Crypto Valley, CV 12345</p>
+              <p>Phone: (555) 123-KAGE</p>
+              <p>Email: hello@kagelock.com</p>
             </address>
           </div>
           <div className="relative">
